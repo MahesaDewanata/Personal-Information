@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahesa Dewanata Satria - Personal Website</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #e0f2fe 0%, #fdf2f8 50%, #ede9fe 100%);
+      color: #1f2937;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .hero h1 { margin: 10px 0 5px; font-size: 38px; }
+
+    .hero p {
+      font-size: 17px;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.7;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      background: white;
+      color: #7c3aed;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+
+    .wa-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 22px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: -30px auto 0;
+      padding: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.95);
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card h2 { margin-top: 0; }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .tag {
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .blue { background: #3b82f6; }
+    .purple { background: #8b5cf6; }
+    .pink { background: #ec4899; }
+    .teal { background: #14b8a6; }
+    .orange { background: #f97316; }
+    .indigo { background: #6366f1; }
+
+    .footer {
+      text-align: center;
+      padding: 30px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <img src="foto.jpg" alt="Foto Profil">
+
+    <h1>Mahesa Dewanata Satria</h1>
+    <p>
+      Mahasiswa Psikologi Universitas Muhammadiyah Malang yang berfokus membangun karier di bidang
+      <strong>Human Resources</strong>.
+    </p>
+
+    <a href="mailto:mahesadewanata123@gmail.com" class="btn">Email Saya</a><br>
+
+    <!-- GANTI NOMOR WA DI SINI -->
+    <a href="https://wa.me/6281212695520" class="wa-btn" target="_blank">Chat WhatsApp</a>
+  </section>
+
+  <div class="container">
+    <div class="grid">
+
+      <div class="card">
+        <h2>Tentang Saya</h2>
+        <p>
+          Saya tertarik pada pengembangan manusia, komunikasi organisasi, dan proses recruitment.
+          Dengan latar belakang psikologi, saya ingin membantu perusahaan membangun tim yang efektif.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Pendidikan</h2>
+        <p><strong>Universitas Muhammadiyah Malang</strong></p>
+        <p>S1 Psikologi (2024 - Sekarang)</p>
+      </div>
+
+      <div class="card">
+        <h2>Keahlian</h2>
+        <div class="tags">
+          <span class="tag blue">Komunikasi</span>
+          <span class="tag purple">Observasi</span>
+          <span class="tag pink">Critical Thinking</span>
+          <span class="tag teal">Problem Solving</span>
+          <span class="tag orange">Kerja Tim</span>
+          <span class="tag indigo">MS Office</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Nilai Profesional</h2>
+        <p>
+          Adaptif, cepat belajar, dan memiliki semangat berkembang di bidang Human Resources.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2026 Mahesa Dewanata Satria
+  </div>
+
+</body>
+</html>
